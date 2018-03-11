@@ -1,0 +1,122 @@
+@font-face{
+  font-family: font_1;
+  src: url(../font/Siyamrupali.ttf);
+}
+.new_word{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 70%;
+  height: 200px;
+  float: right;
+  border: 5px solid #212529;
+}
+.new_word > form{
+  position: relative;
+  top: 30px;
+}
+.word_list{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 30%;
+  height: 100%;
+  float: left;
+  border: 2px solid #212529;
+  overflow: scroll;
+  background: #212529;
+}
+.search_nav{
+  position: absolute;
+  right: 0px;
+  width: 70%;
+  height: 50px;
+  background: #212529;
+}
+.searchbar{
+  position: absolute;
+  left: 10px;
+  margin-top: 6px;
+}
+.top-btn{
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+.middle-body{
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  bottom: 200px;
+  width: 70%;
+  float: right;
+  border: 5px solid #212529;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.new_word_header{
+  position: absolute;
+  right: 0px;
+  bottom: 170px;
+  width: 100%;
+  height: 40px;
+  float: right;
+  border: 6px solid #212529;
+  background-color: #212529;
+  color: #ffffff;
+}
+
+.add-btn{
+  position: absolute;
+  top: 5px;
+  bottom: 15px;
+  right: 10px;
+  width: 100px;
+  height: 140px;
+  background-color: #212529;
+  color: #ffffff;
+  border: 0 none;
+  border-radius: 10px;
+}
+.add-btn:hover{
+  background-color: #272d32;
+  cursor: pointer;
+}
+.add-panel{
+  margin: 6px;
+}
+.add-panel-margin{
+  margin-left: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #6c757d;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #6c757d;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #212529;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-corner
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #343a40;
+}
